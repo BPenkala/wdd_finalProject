@@ -2,7 +2,7 @@
 <footer>
     <div class="row">
         <div class="large-12 columns">
-            <img src="../../assets/img/hoatzinest_logo.png" alt="HoatziNest Logo">
+            <img src="assets/img/hoatzinest_logo.png" alt="HoatziNest Logo">
         </div>
 
         <div class="large-4 columns">
@@ -46,8 +46,8 @@
 </section>
 
 <!-- ======== Scripts ======== -->
-<script type="text/javascript" src="../../assets/js/jquery.js"></script>
-<script type="text/javascript" src="../../assets/js/foundation.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/foundation.min.js"></script>
 <script>
     $(document).foundation();
 </script>
