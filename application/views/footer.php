@@ -8,16 +8,16 @@
         <div class="large-4 columns">
             <h6>Socialize with us!</h6>
             <ul class="inline-list">
-                <li><a class="twitter" href="www.twitter.com/hoatzinest"></a></li>
+                <li><a class="twitter" href="http://www.twitter.com/hoatzinest"></a></li>
                 <li><a class="facebook" href="#"></a></li>
-                <li><a class="mail" href="#"></a></li>
+                <li><a class="mail" href="<?php echo base_url();?>index.php/projects"></a></li>
             </ul>
         </div>
         <div class="large-2 columns">
             <ul>
                 <span>About</span>
                 <li><a href="#">History</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="<?php echo base_url();?>index.php/projects">Contact</a></li>
                 <li><a href="#">Terms of use</a></li>
             </ul>
         </div>
@@ -25,13 +25,13 @@
             <ul>
                 <span>Community</span>
                 <li><a href="#">Members</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Showcase</a></li>
+                <li><a href="<?php echo base_url();?>index.php/projects">Projects</a></li>
+                <li><a href="<?php echo base_url();?>index.php/showcase">Showcase</a></li>
                 <li><a href="#">Resources</a></li>
             </ul>
         </div>
         <div class="large-4 columns">
-            <a href="build.php" class="button primary right radius wide ">Start Idea</a>
+            <a href="<?php echo base_url();?>index.php/build" class="button primary right radius wide ">Start Idea</a>
         </div>
 
     </div>
